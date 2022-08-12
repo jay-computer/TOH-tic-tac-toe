@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: gray;
+}
+
+header.loginForm {
+    padding: 8px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+header.difficulty {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+header.difficulty > button {
+    background-color: aliceblue;
+    border-radius: 25px;
+}
+
+header > h1 {
+    text-align: center;
+    border: solid red 1px;
+}
+
+form {
+    justify-self: center;
+}
+
+input#login {
+    border-radius: 10px;
+    border: solid red 1px;
+    background-color: skyblue;
+    
+}
+
+.gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    justify-content: center;
+}
+.game-square {
+    border: solid black 1px;
+}
