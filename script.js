@@ -1,7 +1,7 @@
 let xTurn = true;
 
 function winCondition() {
-    
+
 }
 
 function addSymbol(e) {
@@ -18,6 +18,8 @@ function addSymbol(e) {
     else {
         e.target.innerHTML = "O";
         xTurn = true;
+
+        //test
 
         winCondition();
     }
