@@ -25,7 +25,7 @@ header.difficulty > button {
 
 header > h1 {
     text-align: center;
-    border: solid red 1px;
+    
 }
 
 form {
@@ -46,5 +46,11 @@ input#login {
     justify-content: center;
 }
 .game-square {
+    display: flex;
     border: solid black 1px;
+    color: red;
+    font-size: 72px;
+
+    justify-content: center;
+    align-items: center;
 }
